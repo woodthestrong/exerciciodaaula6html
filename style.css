@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    display:flex;
+    background-color:brown;
+}
+
+.logoAutonomy {
+    width: 50%;
+    padding: 2%;
+    color:antiquewhite;
+}
+
+.menu {
+    width: 50%;
+}
+.menuLista {
+    display: flex;
+    color:antiquewhite;
+    justify-content: end;
+}
+
+.menuLista li {
+    padding: 37px 30px 15px 15px;
+    list-style: none;
+}
+
+
+.menuLista li a {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.menuLista li a:hover {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.sessao2 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-bottom: 40px; 
+}
+
+.buque {
+    width: 20%;
+}
+
+.floresvermelhas {
+    width: 20%;
+}
+
+.floresroxas {
+    width: 20%;
+}
+
+.floresamarelas {
+    width: 20%;
+}
+
+.sessao3 {
+    width: 100%;
+	padding: 50px 0;
+	background-color: #37201a;
+}
+
+.sessao3filho1 {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.sessao3filho2 {
+    width: 50%; 
+    padding: 50px;  
+}
+
+.sessao3filho1 .floresbrancas {
+    width: 50%; 
+    padding: 10px;   
+}
+
+.sessao3filho1 .floresbonitas {
+    width: 50%;
+    padding: 10px; 
+}
+
+.center{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.praesent{
+	width: 100%;
+	padding: 50px 0;
+	background-color: #37201a;
+}
+.praesent h2{
+	color: #986e60;
+	padding: 15px 0;
+}
+.img-text{
+	min-height: 100px;
+}
+.praesent-img{
+	width: 30%;
+	float: left;
+}
+.praesent-img img{
+	width: 100%;
+}
+.praesent-text{
+	width: 60%;
+	float: left;
+	margin: 0 5px;
+}
+.praesent-text p{
+	font-size: 12px;
+	color: #bd9e96;
+}
+.w50{
+	width: 50%;
+	float: left;
+}
+.w50 img{
+	width: 100%;
+}
+.w50 p{
+	font-size: 12px;
+	color: #bd9e96;
+	padding: 15px 0;
+}
+.maecenas{
+	width: 100%;
+	background-color: #251611;
+	padding: 30px 0;
+}
+.w70{
+	width: 70%;
+	float: left;
+}
+.w70 h2{
+	color: #986e60;
+	padding: 15px 0;
+}
+.w70 p{
+	font-size: 14px;
+	color: #bd9e96;
+	padding:15px 0;
+}
+.w30 {width: 30%;
+	float: left;
+}
+.w30 h2{
+	color:#986e60;
+	padding:15px;
+}
+.w30 ul{
+	list-style-type: none;
+	padding-left: 15px;
+}
+.w30 ul li{
+	padding: 5px 0;
+}
+.w30 ul li a{
+	text-decoration: none;
+	color:#bd9e96; 
+}
+.w30 a:hover{
+	text-decoration: underline;
+}
+footer{
+	width: 100%;
+	background-color: #180e0c;
+	padding: 20px 0;
+}
+footer p{
+	font-size: 14px;
+	color:#bd9e96;
+	text-align:center;
+}
+
+.clear{
+	clear: both;
+}
+
+.w25{
+	width: 25%;
+	float: left;
+}
+.w20{
+	width: 80%;
+	margin: 0 auto;
+}
+.w20 img{
+   width: 100%;
+}
+.w20 h3{
+	font-size: 20px;
+	padding: 10px 0;
+}
+.w20 p{
+	font-size: 16px;
+}
+
+.sessao3filho1 .borboletaamarela {
+    width: 50%;
+    padding: 10px; 
+}
+
+.sessao3filho1 .borboletamulticolor {
+    width: 50%;
+    padding: 10px; 
+}
+
+.sessao3filho1 .borboletalaranja {
+    width: 50%;
+    padding: 10px; 
+}
+
+.sessao3filho1 .borboletaroxa {
+    width: 50%;
+    padding: 10px; 
+}
+
+.filho_1 {
+    display: flex;
+    width: 100%;
+}
+
+.filho {
+    height: 100%;
+    width: 50%;
+    max-height: 20px;
+}
+.filho img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.filho_menor {
+    width: 50%;
+}
