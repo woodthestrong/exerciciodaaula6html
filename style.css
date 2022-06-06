@@ -49,7 +49,8 @@ header {
     display: flex;
     margin-top: 40px;
     justify-content: space-around;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
+	flex-wrap: wrap; 
 }
 
 .buque {
@@ -254,4 +255,100 @@ footer p{
 
 .filho_menor {
     width: 50%;
+}
+nav {
+    width: 90%;    
+}
+nav a:hover {
+    border-bottom: 2px solid #ccc;
+}
+nav.mobile {
+	display: none;
+}
+@media screen and (max-width: 768px){
+	.w25{
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.img-text{
+		margin-bottom: 15px;
+	}	
+	.praesent-img{
+		width: 100%;
+		float: none;
+	}
+	.praesent-text{
+		width: 100%;
+		float: none;
+	}
+	
+	.menuLista {
+		display: none;
+	}
+	nav.mobile{
+		display: block;	
+        text-align: right;	
+	}
+	nav.mobile i{
+		font-size: 25px;
+		color: white;
+		position: relative;
+		top: 20px;
+		cursor: pointer;
+	}
+    nav.mobile ul{
+		display: none;
+		position: absolute;
+		left: 0;
+		z-index: 999;
+		top: 75px;
+		background-color: white;
+		list-style: none;
+		width: 100%;
+		text-align: center;		
+	}
+	nav.mobile li{
+		border-bottom: 1px solid #ccc;
+		padding: 10px 0;
+	}
+	nav.mobile li a{
+		text-decoration: none;
+		color: black;
+	}
+	
+	.w50 {
+		width: 100%;
+	}
+	
+	.w70 {
+		width: 100%;
+	}
+	
+	.w30 {
+		width: 100%;
+	}			  
+}
+
+@media screen and (max-width: 650px) {
+	.buque {
+		width: 50%;
+		padding: 10px;
+	}
+	
+	.floresvermelhas {
+		width: 50%;
+		padding: 10px;
+	}
+	
+	.floresroxas {
+		width: 50%;
+		padding: 10px;
+	}
+	
+	.floresamarelas {
+		width: 50%;
+		padding: 10px;
+	}
+	
 }
